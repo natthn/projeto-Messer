@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: #F3B6C8;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header p{
+    font-family: 'Roboto', sans-serif;
+}
+
+header a{
+    color: white;
+
+}
+
+header > h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-variant: small-caps;
+
+}
+
+main{
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    padding-top:10vh;
+    padding-bottom:10vh;
+    line-height: 1.4em;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+section.normal{
+    background-color: #D9A3B3;
+}
+
+section.imagem{
+    background-color: rgb(211, 167, 193);
+    box-shadow: inset 6px 5px 13px 2px rgba(0, 0, 0, 0.144);
+}
+
+section.imagem > p{
+    background-color: #d9a3b3b9;
+    padding: 15px;
+    display: inline-block;
+    max-width: 50%;
+}
+
+section.normal > p{
+    background-color: #d9a3b3;  
+    display: inline-block;
+}
+
+section#img01{
+    background-image: url(imagens/tyler1.png);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+section#img02{
+    background-image: url(imagens/tyler4.jpg);
+    background-position: left top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: #272423;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
