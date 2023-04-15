@@ -68,7 +68,7 @@ section.normal > p{
 }
 
 section#img01{
-    background-image: url(imagens/tyler5.jpg);
+    background-image: url(imagens/tyler1.png);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -80,6 +80,7 @@ section#img02{
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 a {
