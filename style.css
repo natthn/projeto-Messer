@@ -41,11 +41,8 @@ main{
 }
 
 section{
-    padding-top:10vh;
-    padding-bottom:10vh;
+    padding:10vh;
     line-height: 1.4em;
-    padding-left: 10vh;
-    padding-right: 10vh;
 }
 
 section.normal{
@@ -61,7 +58,8 @@ section.imagem > p{
     background-color: #d9a3b3b9;
     padding: 15px;
     display: inline-block;
-    max-width: 50%;
+    max-width: 100%;
+    margin: auto;
 }
 
 section.normal > p{
@@ -70,7 +68,7 @@ section.normal > p{
 }
 
 section#img01{
-    background-image: url(imagens/tyler1.png);
+    background-image: url(imagens/tyler5.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
