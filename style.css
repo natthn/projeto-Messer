@@ -71,14 +71,15 @@ section.normal > p{
 
 section#img01{
     background-image: url(imagens/tyler1.png);
-    background-position: center;
-    background-size: contain;
+    background-position: center center;
+    background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 section#img02{
     background-image: url(imagens/tyler4.jpg);
-    background-position: left top;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
