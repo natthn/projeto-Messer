@@ -41,7 +41,7 @@ main{
 }
 
 section{
-    padding:10vh;
+    padding:6vh;
     line-height: 1.4em;
 }
 
@@ -68,7 +68,7 @@ section.normal > p{
 }
 
 section#img01{
-    background-image: url(imagens/tyler1.png);
+    background-image: url(../imagens/igor/tyler1.png);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -76,7 +76,7 @@ section#img01{
 }
 
 section#img02{
-    background-image: url(imagens/tyler4.jpg);
+    background-image: url(../imagens/igor/tyler4.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
