@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/*CSS Reset*/
+
 *{
     margin: 0px;
     padding: 0px;
@@ -11,6 +13,8 @@ html, body{
     min-height: 100vh;
     background-color: white;
 }
+
+/*Menu Header*/
 
 header{
     background-color: rgb(0, 0, 0);
@@ -27,23 +31,23 @@ header >  h1{
     font-variant: small-caps;
 }
 
-a{
+li > a{
     text-decoration: none;
     color: white;
     padding-inline-end: 15px;
 }
 
-a:hover{
+nav a:hover{
     color: rgb(119, 119, 119);
     transition: 0.3s;
 }
 
-li{
+nav li{
     display: inline-block;
     text-align: -webkit-match-parent;
 }
 
-ul {
+nav ul {
     display: block;
     list-style-type: disc;
     margin-block-start: 0.6em;
@@ -60,13 +64,57 @@ nav.primary-nav{
     transition: border-color .15s;
     border: 2px solid #1a1a1a;
 }
+/*Albúns*/
 
-div#igor{
-    background-image: url(../imagens/main/cover.jpg);
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
-img#igor{
-    width: 180px;
-    height: 200px;
-    border-radius: 20px;
+div{
+    display: block;
 }
+
+.review {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.review-title > ul.artist {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.conteiner{
+    position: relative;
+    width: 150px;
+}
+
+.conteiner img{
+    width: 200px;
+    height: auto;
+}
+
+.btn{
+    margin-top: 60px;
+    margin-left: 50px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(102, 102, 102, 0.568);
+    transition: transform 0.5s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1)
+  }

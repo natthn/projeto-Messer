@@ -55,9 +55,9 @@ section.imagem{
 }
 
 section.imagem > p{
-    background-color: #d9a3b3b9;
+    background-color: #f1f1f165;
     padding: 15px;
-    display: inline-block;
+    display: block;
     max-width: 100%;
     margin: auto;
 }
@@ -68,7 +68,7 @@ section.normal > p{
 }
 
 section#img01{
-    background-image: url(../imagens/igor/tyler1.png);
+    background-image: url(../imagens/igor/tyler5.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -80,7 +80,7 @@ section#img02{
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    
+    background-repeat: no-repeat;
 }
 
 a {
