@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
+
+/*CSS Reset*/
 
 *{
     margin: 0px;
@@ -10,13 +13,15 @@
 
 html, body{
     min-height: 100vh;
-    background-color: #F3B6C8;
 }
+
+/*Header*/
 
 header{
     background-color: black;
     color: white;
     text-align: center;
+    font-family: 'Konkhmer Sleokchher', cursive;
 }
 
 header p{
@@ -25,7 +30,6 @@ header p{
 
 header a{
     color: white;
-
 }
 
 header > h1{
@@ -35,10 +39,31 @@ header > h1{
 
 }
 
+/*Padrão*/
+
+body{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 main{
+    background-color: white;
+    max-width: 680px;
+    padding: 0px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
     border: 2px solid black;
     font-family: 'Roboto', sans-serif;
+    box-shadow: 2px 1px 12px rgba(0, 0, 0, 0.507);
 }
+
+/*Conteúdo*/
 
 section{
     padding:6vh;
@@ -83,6 +108,27 @@ section#img02{
     background-repeat: no-repeat;
 }
 
+section#img03{
+    background-image: url(../imagens/igor/tyler1.png);
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-top-right-radius: 7px;
+    border-top-left-radius:7px;
+}
+
+#borda-baixo{
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius:7px;
+}
+
+#borda-topo{
+    border-top-right-radius: 7px;
+    border-top-left-radius:7px;
+}
+
 a {
     text-decoration: none;
     color: #272423;
@@ -92,6 +138,8 @@ a {
 a:hover{
     text-decoration: underline;
 }
+
+/*Rodapé*/
 
 footer{
     background-color: black;
