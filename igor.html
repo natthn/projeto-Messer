@@ -7,6 +7,7 @@
     <title>IGOR</title>
     <link rel="stylesheet" href="estilos/igor.css">
     <link rel="shortcut icon" href="imagens/main/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header id="page-header">
@@ -15,7 +16,8 @@
             <a class="artist" href="https://www.youtube.com/channel/UCsQBsZJltmLzlsJNG7HevBg" target="_blank">Tyler, The Creator</a>
         </h1>
         <nav class="primary-nav">
-                <ul class="menu">
+            <span id="menu" class="material-icons" onclick="clickMenu()">menu</span>
+                <ul id="itens" class="menu">
                     <li><a href="#">Página Inicial</a></li>
                     <li><a href="#">Albúns</a></li>
                     <li><a href="#">Faixas</a></li>
@@ -51,5 +53,14 @@
     <footer>
         Uma review de<a href="https://github.com/natthn" target="_blank"> cattsu</a>
     </footer>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
