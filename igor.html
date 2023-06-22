@@ -5,26 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IGOR</title>
+    <link rel="stylesheet" href="mediaquery/mediaquery.css">
     <link rel="stylesheet" href="estilos/igor.css">
     <link rel="shortcut icon" href="imagens/main/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
 </head>
-<body>
+<body onresize="resize()">
     <header id="page-header">
         <h1>
             IGOR <br>
             <a class="artist" href="https://www.youtube.com/channel/UCsQBsZJltmLzlsJNG7HevBg" target="_blank">Tyler, The Creator</a>
         </h1>
         <nav class="primary-nav">
-            <span id="menu" class="material-icons" onclick="clickMenu()">menu</span>
-                <ul id="itens" class="menu">
-                    <li><a href="#">Página Inicial</a></li>
-                    <li><a href="#">Albúns</a></li>
-                    <li><a href="#">Faixas</a></li>
-                    <li><a href="#">Reviews Recentes</a></li>
-                    <li><a href="#">Lançamentos</a></li>
-                </ul>
+                <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+                    <menu>
+                        <ul id="itens" class="menu">
+                            <li><a href="#">Página Inicial</a></li>
+                            <li><a href="#">Albúns</a></li>
+                            <li><a href="#">Faixas</a></li>
+                            <li><a href="#">Reviews Recentes</a></li>
+                            <li><a href="#">Lançamentos</a></li>
+                        </ul>
+                    </menu>
     </nav>
     </header>
     <main>
@@ -54,14 +57,7 @@
     <footer>
         Uma review de<a href="https://github.com/natthn" target="_blank"> cattsu</a>
     </footer>
-    <script>
-        function clickMenu(){
-            if (itens.style.display == 'block'){
-                itens.style.display = 'none'
-            } else {
-                itens.style.display = 'block'
-            }
-        }
+    <script src="javascript/script.js">
     </script>
 </body>
 </html>
